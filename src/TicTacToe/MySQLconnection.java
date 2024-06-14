@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MySQLconnection {
     private static final String URL = "jdbc:mysql://localhost:3306/database";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "wnoesaid";
+    private static final String PASSWORD = "root";
     public static Connection connection = null;
 
     public static Connection connectDb() {
